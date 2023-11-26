@@ -1,29 +1,32 @@
 {
-  "name": "blog-backend",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Backend api for blog",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@exfabrica/strapi-plugin-awesome-seo": "^1.0.0-beta.1.2",
-    "@strapi/plugin-users-permissions": "4.14.5",
-    "@strapi/strapi": "4.14.5",
-    "mysql": "^2.18.1",
-    "reading-time": "^1.5.0"
+    "@strapi/strapi": "4.15.4",
+    "@strapi/plugin-users-permissions": "4.15.4",
+    "mysql": "2.18.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
     "name": "kangwie"
   },
   "strapi": {
-    "uuid": "a6ffdbd2-a219-40d9-8c30-2241b49f7870"
+    "uuid": "92f46c15-d05f-4ffe-a6ca-7aeb6ceffe4b"
   },
   "engines": {
-    "node": ">=16.0.0 <=20.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
