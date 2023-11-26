@@ -5,8 +5,8 @@ module.exports = ({ env }) => [
     config: {
       contentSecurityPolicy: {
         directives: {
-          'script-src': ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net'],
-          'img-src': ["'self'", 'data:', 'cdn.jsdelivr.net', 'strapi.io', `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`],
+          'script-src': ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net', 'api.kangwie.my.id'],
+          'img-src': ["'self'", 'data:', 'cdn.jsdelivr.net', 'strapi.io','api.kangwie.my.id'],
         },
       }
     },
