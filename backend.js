@@ -1,9 +1,2 @@
-module.exports = {
-    apps: [
-      {
-        name: 'backend',
-        script: 'npm',
-        args: 'start',
-      },
-    ],
-  };
+const strapi = require('strapi');
+strapi().start();
